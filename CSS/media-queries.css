@@ -128,8 +128,7 @@ footer{
     }
     .main{
         width: 59%;
-        margin-left: 5vw;
-        margin-right: 1vw;
+        margin: .5em 1vw 9em 5vw;
     }
     .sub-section{
         width: 29%;
