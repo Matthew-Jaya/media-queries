@@ -88,12 +88,12 @@ footer{
     .alert-info{
         display: none;
     }
+    body{
+        display: flex;
+        flex-direction: row;
+    }
     ul.nav-links li{
         background-color: #ffffff;
-    }
-    ul:nth-child(1){
-        margin-left: auto;
-        display: flex;
     }
     li{
         width: 5vw;
@@ -102,15 +102,30 @@ footer{
         height: calc(100vh/2);
     }
     ul:nth-child(1){
-        position: absolute;
-        top: 1.5em;
-        left: 70vw;
+        margin-left: auto;
+        display: flex;
+        align-self: flex-end;
+        margin-right: 5vw;
     }
     .main{
         display: flex;
+        width: 60vw;
+        align-self: flex-start;
+        margin-left: 5vw;
     }
     .sub-section{
         display: flex;
+        width: 20vw;
+        align-self: flex-end;
+        margin-right: 5vw;
+    }
+    h1{
+        display: flex;
+        margin-right: auto;
+        margin-left: 4.8vw;
+    }
+    .header-img{
+        width: 50px;
     }
 }
 
