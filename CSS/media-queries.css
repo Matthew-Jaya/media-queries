@@ -12,9 +12,14 @@ body{
     justify-content: space-around;
     height: 100vh;
     overflow: scroll;
+    font-family:"Roboto Light";
 
 }
+h1{
 
+    font-size: 3em;
+    margin:.5em 0;
+}
 .alert-info{
     background-color: #ccfffe;
     border: 1px solid #bfbfbf;
