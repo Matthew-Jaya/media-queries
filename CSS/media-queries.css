@@ -94,10 +94,19 @@ footer{
     .alert-info{
         display: none;
     }
+    h1{
+        margin-right: auto;
+        margin-left: 5vw;
+    }
+    .nav-links{
+        margin-left: auto;
+        margin-right: 5vw;
+    }
     body{
         flex-direction: row;
         flex-basis: 100%;
         flex-wrap: wrap;
+        height: 100vh;
     }
     ul.nav-links li{
         background-color: #ffffff;
@@ -110,49 +119,25 @@ footer{
         margin-left: auto;
     }
     img{
-        height: calc(100vh/2);
+        height: 100%;
         width: 100%;
     }
     .header-img{
         margin: 0 5%;
+        height: 50vh;
     }
     .main{
-        width: 65%;
+        width: 59%;
+        margin-left: 5vw;
+        margin-right: 1vw;
     }
     .sub-section{
-        width: 35%;
+        width: 29%;
+        margin-right: 5vw;
+        margin-left: 1vw;
     }
     footer{
         width: 100%;
+        margin: 1em 5vw;
     }
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
