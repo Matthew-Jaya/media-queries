@@ -127,7 +127,9 @@ footer{
     }
     .main{
         width: 59%;
-        margin: .5em 1vw 9em 5vw;
+        margin-left: 5vw;
+        margin-top: .65em;
+        align-self: flex-start;
     }
     .sub-section{
         width: 29%;
